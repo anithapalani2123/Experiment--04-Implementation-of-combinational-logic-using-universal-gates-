@@ -10,17 +10,23 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 ## Hardware – PCs, Cyclone II , USB flasher
 ## Software – Quartus prime
 ## Theory
- 
- 
- 
- 
 
+ A universal gate is a logic gate which can implement any Boolean function without the need to use any other type of logic gate. The NOR gate and NAND gate are universal gates. This means that you can create any logical Boolean expression using only NOR gates or only NAND gates. In practice, this is advantageous since NOR and NAND gates are economical and easier to fabricate than other logic gates. Similarly, an OR gate is typically realised as a NOR gate followed by an inverter.
+ 
 
 ## Procedure
+1. Create a project with required entities.
 
+2. Create a module along with respective file name.
 
+3. Run the respective programs for the given boolean equations.
 
-Write the detailed procedure here 
+4. Run the module and get the respective RTL outputs.
+
+5. Create university program(VWF) for getting timing diagram.
+
+6. Give the respective inputs for timing diagram and obtain the results.
+
 
 
 ## Program:
@@ -58,18 +64,24 @@ endmodule
 ## Output:
 ## NAND gate:
 
-## Truthtable
-
-
+## Truthtable:
+![output](./nandtt.png)
 
 ##  RTL realization:
 ![output](./nandss.png)
-
-
-## Timing diagram 
-## NOR gate:
-![output](./norss.png)
+## Timing diagram :
+![output](./nandwf.jpeg)
+### NOR gate:
 ##  RTL realization:
+![output](./norss.png)
+
+## Truthtable:
+![output](./nortt.png)
+
+## Timing diagram :
+![output](./norwf.jpeg)
+
 
 ## Result:
+Thus implementation of logic functions using NAND and NOR gates is done and its operation is verified in Quartus using Verilog programming.
  
